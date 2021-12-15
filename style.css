@@ -63,6 +63,10 @@ section {
     color: var(--text-color-dark);
     background-color: #f4f5f6;
 }
+.hidden,
+.hidden div{
+    display: none;
+}
 
 .container {
     margin: var(--body-container-margin);
