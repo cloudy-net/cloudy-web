@@ -69,12 +69,14 @@ section > .container {
     margin: 0 auto;
     max-width: 1200px;
 }
-
+header {
+    margin: 0 auto;
+}
 .hero {
     background-color: var(--main-bg-color);
     min-height: 300px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     color: var(--text-color-light);
     background-color: black;
